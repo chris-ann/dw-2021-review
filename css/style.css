@@ -29,10 +29,10 @@ header {
 }
 
 .logo {
-	background-image: url(../imgs/smile-icon.png);
-	width: 40px;
-	height: 40px;
-	background-size: 100%;
+	/*background-image: url(../imgs/smile-icon.png);*/
+	width: 32px;
+	height: 32px;
+	/*background-size: 100%;*/
 }
 
 nav ul {
@@ -58,4 +58,8 @@ footer {
 	font-size: 50px;
 	font-weight: bold;
 	cursor: url(../imgs/confused-icon.png), auto;
+}
+
+.logo img:not(:first-child){
+	display: none;
 }
