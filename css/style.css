@@ -53,3 +53,9 @@ footer {
 	text-align: right;
 
 }
+
+.joke {
+	font-size: 50px;
+	font-weight: bold;
+	cursor: url(../imgs/confused-icon.png), auto;
+}
